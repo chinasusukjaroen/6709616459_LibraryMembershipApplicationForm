@@ -1,0 +1,67 @@
+body {
+    background: url('image/chismas.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 10px 16px red;
+    color: #333333;
+}
+
+h1 {
+    text-align: center;
+    color: #b71c1c;
+    font-size: 30px;
+    text-shadow: 2px 2px #ffffff;
+}
+
+label {
+    color: #388e3c;
+    font-weight: bold;
+}
+
+
+input[type="text"], input[type="email"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 2px solid #388e3c;
+    border-radius: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+button[type="submit"], button[type="reset"] {
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover {
+    background-color: #7f0000;
+}
+
+
+form::before {
+    content: "🎄 Libary Membership 🎄";
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
